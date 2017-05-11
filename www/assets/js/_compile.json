@@ -1,0 +1,11 @@
+[{
+	"name": "script.js",
+	"src": [
+		"script.js"
+	]
+},{
+	"name": "browser-sync.js",
+	"src": [
+		"browser-sync.js"
+	]
+}]

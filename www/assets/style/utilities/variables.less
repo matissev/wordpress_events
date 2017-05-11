@@ -1,0 +1,74 @@
+
+/* Grid */
+/* 5% | (5.575% | 2.1%) * 11 | 5.575% | 5% */
+
+@margin : 5%;
+@gutter : 2.1%;
+@column : 5.575%;
+
+
+
+/* Colors */
+
+@colorA : white;
+@colorB : black;
+
+@color-success : limegreen;
+@color-error : orange;
+@color-failure : red;
+
+@color1-a : #fff000; /* H2 SMALL COLOR */
+@color1-b : desaturate(darken(@color1-a, 35%), 35%); /* CURRENT TEXT COLOR */
+
+
+/* Fonts */
+
+@heading-text : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+@current-text : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+@font-size-xs : 12px;
+@font-size-s : 13px;
+@font-size-m : 15px;
+@font-size-l : 18px;
+@font-size-xl : 30px;
+
+.font-rendering() {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+	font-smooth: always;
+}
+
+
+/* General styles */
+
+body {
+	font: normal @font-size-s @current-text;
+	height: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+	margin: 0;
+}
+
+h1, h2 {
+	font: bold @font-size-l @heading-text;
+}
+
+h2 {
+	font-size: @font-size-xl;
+}
+
+h3, h4, h5 {
+	font: bold @font-size-l @current-text;
+	font-size: @font-size-s;
+}
+
+a {
+	color: @colorB;
+}
+
+.svg-common() {
+	background: url(../img/sprite.svg) no-repeat;
+	background-size: 156px 141px;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "wordpress_calendar",
+  "description": "",
+  "main": "wordpress/index.php",
+  "authors": [
+    "Matisse Vrignaud"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "wordpress"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "normalize-css": "^6.0.0"
+  }
+}
